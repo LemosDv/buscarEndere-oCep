@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">   
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="buscarCep.css">
+    </head>
+    
+    <body>
+    
+        <div class="containerTitulo">
+            <h1>LOCAL CEP</h1>
+        </div>
+    
+        <div class="container">
+            <div class="containerCep">
+                <input type="text" id="entradaCep" placeholder="Digite o CEP" maxlength="8">
+            </div>
+    
+            <div class="containerErro">
+                <span id="erro"></span>
+            </div>
+    
+            <div class="containerSaida">
+                <div id="saida">
+                    <input type="text" size="60" id="cep" placeholder="CEP" disabled=""><br>
+                    <input type="text" size="60" id="rua" placeholder="RUA" disabled=""><br>
+                    <input type="text" size="60" id="bairro" placeholder="BAIRRO" disabled=""><br>
+                    <input type="text" size="60" id="estado" placeholder="ESTADO" disabled=""><br>
+                    <input type="text" size="60" id="cidade" placeholder="CIDADE" disabled=""><br>
+                    <input type="text" size="60" id="uf" placeholder="CIDADE" disabled=""><br>
+                </div>
+    
+            </div>
+        </div>
+        <script src="buscarCep.js"></script>
+    </body>
+</html>

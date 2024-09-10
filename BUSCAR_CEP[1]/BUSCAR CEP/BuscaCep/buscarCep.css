@@ -1,0 +1,78 @@
+* {
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+    display: block;
+}
+head{
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 90vh;
+    background-image: url(../istockphoto-1357215697-612x612-transformed.jpeg);
+    background-repeat: no-repeat;
+    background-size: 80vh;
+    background-position: center;
+    background-color: rgba(242, 242, 242, 255);
+}
+
+.containerCep {
+    justify-content: center;
+    display: flex;
+
+}
+
+#entradaCep {
+
+    width: 800px;
+    border: solid black 2px;
+    border-radius: 15px;
+    height: 30px;
+    text-align: center;
+
+
+
+}
+
+.containerTitulo {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+
+}
+
+.containerSaida {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+#saida input {
+
+    border: solid 3px;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 5px;
+    display: inline;
+    float: left;
+    color: black;
+}
+
+p {
+
+    text-align: center;
+
+
+}
+
+.containerErro {
+
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    size: 15px;
+    font-size: 30px;
+}
